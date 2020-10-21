@@ -1,0 +1,11 @@
+#Check if a Python list item contains a string inside another string
+
+some_list = ['abc-123', 'def-456', 'ghi-789', 'abc-456']
+
+if 'abc' in my_list: 
+
+Solutions
+
+If you really want to get all the items containing abc, use
+
+matching = [s for s in some_list if "abc" in s]
