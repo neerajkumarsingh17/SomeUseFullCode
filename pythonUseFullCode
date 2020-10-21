@@ -9,3 +9,4 @@ Solutions
 If you really want to get all the items containing abc, use
 
 matching = [s for s in some_list if "abc" in s]
+https://stackoverflow.com/questions/4843158/check-if-a-python-list-item-contains-a-string-inside-another-string/4843172
